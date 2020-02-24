@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+set -e;
+
+echo "This hook fails on purpose to test how Amezmo handles hook failures.";
+
+exit 1;
+
